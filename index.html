@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>น้ำ ❤️ จุ๊</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Segoe UI',sans-serif;
+    background:linear-gradient(180deg,#ffd1dc,#fff5f7);
+    overflow-x:hidden;
+    color:#444;
+}
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+}
+
+.hero h1{
+    font-size:3rem;
+    color:#ff4d6d;
+}
+
+.hero p{
+    margin-top:10px;
+}
+
+.hero img{
+    width:320px;
+    max-width:90%;
+    border-radius:20px;
+    margin:20px 0;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+.counter{
+    background:white;
+    padding:15px;
+    border-radius:15px;
+    margin:15px 0;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+#loveDays{
+    color:#ff4d6d;
+    font-size:1.2rem;
+    font-weight:bold;
+    line-height:1.6;
+}
+
+.section-title{
+    text-align:center;
+    font-size:2rem;
+    color:#ff4d6d;
+    margin:40px 0 20px;
+}
+
+.card{
+    width:90%;
+    max-width:500px;
+    margin:20px auto;
+    background:white;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.card img{
+    width:100%;
+    display:block;
+}
+
+.caption{
+    padding:15px;
+    text-align:center;
+}
+
+.timeline{
+    max-width:600px;
+    margin:auto;
+    padding:0 10px;
+}
+
+.event{
+    background:white;
+    margin:15px 0;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.event h3{
+    color:#ff4d6d;
+    margin-bottom:8px;
+}
+
+.love-box{
+    width:90%;
+    max-width:600px;
+    margin:40px auto;
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 10px 20px rgba(0,0,0,.1);
+}
+
+.love-box h2{
+    color:#ff4d6d;
+    margin-bottom:20px;
+}
+
+.love-box p{
+    line-height:2;
+}
+
+button{
+    margin-top:25px;
+    background:#ff4d6d;
+    color:white;
+    border:none;
+    padding:15px 30px;
+    font-size:18px;
+    border-radius:50px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#ff2d55;
+}
+
+#message{
+    margin-top:20px;
+    font-size:24px;
+    font-weight:bold;
+    color:#ff4d6d;
+}
+
+.footer{
+    text-align:center;
+    padding:40px 20px;
+    color:#888;
+}
+
+.heart{
+    position:fixed;
+    z-index:999;
+    animation:fly 5s linear forwards;
+    pointer-events:none;
+}
+
+@keyframes fly{
+    0%{
+        transform:translateY(100vh);
+        opacity:1;
+    }
+
+    100%{
+        transform:translateY(-100px);
+        opacity:0;
+    }
+}
+
+@media (max-width:768px){
+
+    .hero h1{
+        font-size:2.2rem;
+    }
+
+    .section-title{
+        font-size:1.6rem;
+    }
+
+    .love-box{
+        width:95%;
+        padding:20px;
+    }
+
+    button{
+        width:100%;
+    }
+
+    #message{
+        font-size:20px;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+
+    <h1>❤️ น้ำ & จุ๊ ❤️</h1>
+
+    <p>139 วันแห่งการพยายาม</p>
+    <p>จนกลายเป็นคำว่า "แฟน"</p>
+
+    <div class="counter">
+        <div>🌷 เริ่มจีบ : 16/04/2026</div>
+        <div>💕 เป็นแฟน : 02/09/2026</div>
+
+        <br>
+
+        <div id="loveDays"></div>
+    </div>
+
+    <img src="photo1.jpg" alt="รูปของที่เคยแอบชอบ<br>
+        กลายเป็นคนที่ได้รัก ❤️
+    </p>
+
+</section>
+
+<h2 class="section-title">
+📸 ความทรงจำของเรา
+</h2>
+
+<div class="card">
+    <img src="photo1.jpg" alt="รูปที่ 1">
+       ทุกช่วงเวลาที่อยู่ด้วยกัน มีความหมายเสมอ
+       แต่ขอให้ไม่ใช่ในโรงบาลบ่อยๆนะะะะ ❤️
+    </div>
+</div>
+
+<div class="card">
+    <img src="photo2.jpg" alt="รูปที่ 2">
+    <div class="caption">
+        คนที่ทำให้โลกของเค้าสดใสขึ้นทุกวัน ☀️
+    </div>
+</div>
+
+<div class="card">
+    <img src="photo3.jpg" alt="รูปที่ 3">
+    <div class="caption">
+        ความทรงจำที่อยากเก็บไว้ตลอดไป 💕
+    </div>
+</div>
+
+<h2 class="section-title">
+💌 เรื่องราวของเรา
+</h2>
+
+<div class="timeline">
+
+    <div class="event">
+        <h3>🌷 16/04/2026</h3>
+        <p>วันที่เค้าเริ่มขอจีบเธอจริงจัง</p>
+    </div>
+
+    <div class="event">
+        <h3>💬 ระหว่างทาง</h3>
+        <p>
+            ทุกข้อความ ทุกสายโทรศัพท์
+            ของขวัญวันเกิด ที่ๆไปเที่ยว เค้ามีความสุขมากจ้าาาา
+        </p>
+    </div>
+
+    <div class="event">
+        <h3>💕 02/09/2026</h3>
+        <p>
+            วันที่จุ๊ตอบตกลงเป็นแฟน
+            เป็นหนึ่งในวันที่เค้ามีความสุขที่สุด ❤️
+        </p>
+    </div>
+
+</div>
+
+<div class="love-box">
+
+    <h2>❤️ ถึงจุ๊ ❤️</h2>
+
+    <p>
+        ขอบคุณที่เข้ามาเป็นส่วนหนึ่งของชีวิตเค้าาางับ<br><br>
+
+        จากวันที่เริ่มจีบวันที่ 16 เมษายน
+        จนถึงวันที่หยอยตอบตกลงเป็นแฟนเค้า
+        วันที่ 2 กันยายน<br><br>
+ทุกวันหลังจากนั้น
+กลายเป็นวันที่มีความหมายเสมอ
+
+        เค้าอาจไม่ใช่คนที่สมบูรณ์แบบ
+        ที่ไม่ได้ป้อนเธอ (แต่เค้าจะไม่ลืมป้อนนงับ T_T)
+        ที่ทำให้เธองอนบ่อยๆ ทำให้เธอรู้สึกไม่สำคัญ
+        ดูแลเธอไม่ดี
+        แต่เค้าก็พยายามทุกอย่างจริงๆงับ เค้าจะเป็นคนรักที่ดีของหยอยนะะ
+        ให้ดีที่สุดในทุก ๆ วัน<br><br>
+
+        รักนะไอหยอย ❤️
+    </p>
+
+    <button onclick="showLove()">
+        💕 กดรับความรัก 💕
+    </button>
+
+    <div id="message"></div>
+
+</div>
+
+<div class="footer">
+    Made with ❤️ by น้ำ
+</div>
+
+<script>
+
+function updateLoveCounter(){
+
+    const startDate = new Date("2026-09-02T00:00:00");
+    const now = new Date();
+
+    const diff = now - startDate;
+
+    const days = Math.floor(diff/(1000*60*60*24));
+    const hours = Math.floor((diff%(1000*60*60*24))/(1000*60*60));
+    const minutes = Math.floor((diff%(1000*60*60))/(1000*60));
+    const seconds = Math.floor((diff%(1000*60))/1000);
+
+    document.getElementById("loveDays").innerHTML =
+    `
+    ❤️ คบกันมาแล้ว<br>
+    ${days} วัน ${hours} ชั่วโมง<br>
+    ${minutes} นาที ${seconds} วินาที
+    `;
+}
+
+setInterval(updateLoveCounter,1000);
+updateLoveCounter();
+
+function showLove(){
+
+    document.getElementById("message").innerHTML =
+    "❤️ น้ำรักจุ๊มากนะ ❤️";
+
+    for(let i=0;i<100;i++){
+
+        let heart=document.createElement("div");
+
+        heart.className="heart";
+        heart.innerHTML="❤️";
+        heart.style.left=Math.random()*100+"vw";
+        heart.style.fontSize=(Math.random()*25+20)+"px";
+
+        document.body.appendChild(heart);
+
+        setTimeout(()=>{
+            heart.remove();
+        },5000);
+    }
+}
+
+</script>
+
+</body>
+</html>
